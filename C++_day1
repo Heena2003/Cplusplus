@@ -1,0 +1,93 @@
+Class
+Object
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+Dynamic binding 
+Exception handaling
+Message passing
+
+Class is a logical representation of things, it is like a blueprint or template for an object. By default everything declared within class are private
+
+
+
+Object is a physical represenation of calss and physical representation of things.
+
+
+Encapsulation:- Wrapping of datamembers and functions is all what e called encapsualtion. Class is an example of encapsualtion.
+If all the data menmbers of a class are declared as private then its tightly encapsulation.
+and to acess these private variables we use setter getter 
+
+
+Inhertiatnce:- Acessing the properties of parent calss into the child class. It is used for reusability of code.
+Ex:-	Class Ambani {
+			add()
+			sub()
+		}
+		Class Child:public Ambani 
+		{
+			div(
+			mul()
+		}
+		Child obj;
+
+
+Polymorphism:- Methods can have many forms. Polymorphism is of two types. Ex-Person
+					1. Complie Time(Overloading) 2. Run Time(Overridding)
+
+
+Abstraction:- Hidding Unnecessary details from the user and show only required details to the users. 				  Ex- Man driving the car, Window, Smart phone.
+
+
+Dynamic Binding:- Dyanamic memory allocation 
+
+
+Exception handaling:- There are two types of error
+					  Complie Time:- We need to solve the error till no code will run 
+This cam be easily solved
+
+					   Run Time:- There will be the abnormall termination. Run time errors are called exception and handalling this error is exceptoin handaling.
+Behalf of developer my code shoyuld talkto user for that we use exception handling.
+
+
+message passing:- Sending the message from one constructer to another method, one function to another function  , one class to anothe class.
+
+Class A{
+	protected: int a;
+}
+Class B{
+	public A
+	priat: a;
+}
+{
+	Class C{
+
+	}	
+}
+
+
+"Struct & Union"
+struct Student{
+	int p;
+	float f;
+	cahr name[10];
+};                    18 bytes
+Union Student{
+	int p;
+	float f;
+	cahr name[10];
+};		    		  18 bytes(Sharing memory)
+
+
+
+Constructor:-
+Used to initialize member variable or object of a class. 
+whenever object is created it is called by default. 
+Constructor name and class name should be same. Constructor overloading is allowed. It's always define within public section
+Types of Constructor 
+1. Default 
+2. Paramatarized
+3. 
+
+

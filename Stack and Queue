@@ -1,0 +1,14 @@
+Stack and Queue
+
+
+
+Size of array= sizeof(arr)/sizeof(arr[0])
+
+Bubble sort-> Ascending porder sorting
+Bubble sort-> decending orde porder sorting------Just change the greater than sign 
+
+
+Binary search
+low=0;
+high=n;
+mid=(low+high)/2;
